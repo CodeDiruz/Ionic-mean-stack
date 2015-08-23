@@ -1,0 +1,8 @@
+<ion-view view-title="Profiles">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="profile in profiles"
+                href="#/app/profiles/{{profile.id}}">{{profile.name}}</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
